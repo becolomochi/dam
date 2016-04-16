@@ -1,0 +1,16 @@
+application/cache/
+application/config/
+application/i18n/
+application/logs/
+application/messages/
+application/bootstrap.php
+
+modules/
+system/
+media/img/
+media/lib/
+
+*.md
+*.json
+*.html
+.DS_Store
