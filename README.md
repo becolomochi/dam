@@ -1,0 +1,2 @@
+# dam.becolomochi.com
+こちらはべころもちのダムコンテンツです。
