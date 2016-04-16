@@ -10,7 +10,6 @@ class Controller_Common extends Controller_Template {
 	public function action_index()
 	{
 		$this->template->title = 'Damdom - べころもち工房';
-		$this->template->content = '概要について';
 	}
 
 	public function after()
@@ -29,4 +28,4 @@ class Controller_Common extends Controller_Template {
 
 		parent::after();
 	}
-} // End Welcome
+}
