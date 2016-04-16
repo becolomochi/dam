@@ -10,7 +10,6 @@ class Controller_Book extends Controller_Template {
 	public function action_index()
 	{
 		$this->template->title = '素顔のダム Web - べころもち工房';
-		$this->template->content = '概要について';
 		$this->template->modal_content = View::factory('modal/content');
 		$this->template->modal_about = View::factory('modal/about');
 		$this->template->modal_contact = View::factory('modal/contact');
@@ -226,4 +225,4 @@ class Controller_Book extends Controller_Template {
 
 		parent::after();
 	}
-} // End Welcome
+}
