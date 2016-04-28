@@ -209,7 +209,6 @@ class Controller_Book extends Controller_Template {
 		{
 			$this->template->styles = array(
 				'/media/lib/normalize.css',
-				'/media/lib/bookblock/css/default.css',
 				'/media/lib/bookblock/css/bookblock.css',
 				'/media/css/dambook.css',
 			);

@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon-precomposed" href="/webclip.png">
 
 <?php foreach ($styles as $style) { ?>
-<link type="text/css" rel="stylesheet" href="<?php echo $style; ?>">
+<link type="text/css" rel="stylesheet" href="<?php echo $style; ?>?160424">
 <?php } ?>
 </head>
 <body>
@@ -33,8 +33,10 @@
 <div class="gradient-box"></div>
 </div>
 <nav class="pager-box">
+<div class="pager-box-inner">
 	<a id="bb-nav-next" href="#" class="bb-custom-icon bb-custom-icon-arrow-left">Next</a>
 	<a id="bb-nav-prev" href="#" class="bb-custom-icon bb-custom-icon-arrow-right">Previous</a>
+</div>
 </nav>
 </div>
 
