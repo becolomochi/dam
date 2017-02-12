@@ -10,23 +10,27 @@ class Controller_Gezicht extends Controller_Template {
 	public function action_index() {
 		$this->template->title = 'gezicht';
 		$this->template->content = View::factory('gezicht/index');
-		$this->template->js = ['barba.min.js'];
+	}
+	
+	public function action_wit() {
+		$this->template->title = '白 gezicht';
+		$this->template->content = View::factory('gezicht/wit/index');
 	}
 	
 	public function after()
 	{
 		if ($this->auto_render === TRUE)
 		{
-			$this->template->styles = array(
+			$this->template->styles = [
 				'/media/lib/normalize.css',
 				'/media/css/gezicht.css',
-			);
+			];
 			
-			$this->template->scripts = array(
+			$this->template->scripts = [
 				'/media/lib/bookblock/js/modernizr.custom.js',
 				'/media/lib/jquery.min.js',
 				'/media/lib/barba.min.js',
-			);
+			];
 		}
 
 		parent::after();
