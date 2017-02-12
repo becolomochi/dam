@@ -14,3 +14,6 @@ media/lib/
 *.json
 *.html
 .DS_Store
+nbproject/
+
+node_modules/
