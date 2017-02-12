@@ -5,14 +5,14 @@ class Controller_Book extends Controller_Template {
 	/**
 	 * @var  View  page template
 	 */
-	public $template = 'book';
+	public $template = 'book/index';
 	
 	public function action_index()
 	{
 		$this->template->title = '素顔のダム Web - べころもち工房';
-		$this->template->modal_content = View::factory('modal/content');
-		$this->template->modal_about = View::factory('modal/about');
-		$this->template->modal_contact = View::factory('modal/contact');
+		$this->template->modal_content = View::factory('book/modal/content');
+		$this->template->modal_about = View::factory('book/modal/about');
+		$this->template->modal_contact = View::factory('book/modal/contact');
 
 		$this->template->pages = array(
 				array(
