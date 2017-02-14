@@ -17,6 +17,21 @@ class Controller_Gezicht extends Controller_Template {
 		$this->template->content = View::factory('gezicht/wit/index');
 	}
 	
+	public function action_kalm() {
+		$this->template->title = '和 gezicht';
+		$this->template->content = View::factory('gezicht/kalm/index');
+	}
+	
+	public function action_canyon() {
+		$this->template->title = '峡 gezicht';
+		$this->template->content = View::factory('gezicht/canyon/index');
+	}
+	
+	public function action_flow() {
+		$this->template->title = '流 gezicht';
+		$this->template->content = View::factory('gezicht/flow/index');
+	}
+
 	public function after()
 	{
 		if ($this->auto_render === TRUE)
