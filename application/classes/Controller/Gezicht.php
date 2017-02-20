@@ -42,9 +42,9 @@ class Controller_Gezicht extends Controller_Template {
 			];
 			
 			$this->template->scripts = [
-				'/media/lib/bookblock/js/modernizr.custom.js',
-				'/media/lib/jquery.min.js',
-				'/media/lib/barba.min.js',
+				'/media/lib/barbajs/barba.min.js',
+				'/media/lib/jquery3.1.1/jquery.min.js',
+				'/media/lib/jquery-mousewheel/jquery.mousewheel.min.js',
 			];
 		}
 

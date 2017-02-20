@@ -25,7 +25,7 @@ gezicht
 </div>
 </div>
 
-<div class="ge-page-box block4">
+<div class="ge-page-box block4" id="block4">
 <div class="ge-vertical-rl-box">
 <h2>おわりに</h2>
 <p class="ge-vertical-rl">

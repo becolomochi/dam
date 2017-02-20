@@ -1,10 +1,14 @@
 @charset "utf-8";
+body {
+	font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3";
+}
 div {
 	box-sizing: border-box;
 }
 .ge-page-box {
 	padding: 50px;
 	height: 100vh;
+	position: relative;
 	&.block1 ,&.block3, &.block5 {
 		background: #fafafa;
 	}
