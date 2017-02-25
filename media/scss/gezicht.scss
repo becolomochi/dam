@@ -7,6 +7,12 @@ $text-color: #555;
 		clear:both;
 	}
 }
+.rl {
+	-webkit-writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+
 body {
 	font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3";
 	color: $text-color;
@@ -44,9 +50,7 @@ div {
 .ge-vertical-rl-box {
 	width: 100%;
 	height: 20.1em;
-	-webkit-writing-mode: vertical-rl;
-	-ms-writing-mode: tb-rl;
-	writing-mode: vertical-rl;
+	@extend .rl;
 	p {
 		line-height: 2;
 		letter-spacing: 0.1em;
@@ -77,10 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 			background: #fff;
 		}
 		.span-alpha {
-			-webkit-writing-mode: vertical-rl;
-			-ms-writing-mode: tb-rl;
-			writing-mode: vertical-rl;
-
+			@extend .rl;
 			position: absolute;
 			top: 5px;
 			left: 0;
@@ -97,10 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 			color: #999;
 		}
 		.span-catch {
-			-webkit-writing-mode: vertical-rl;
-			-ms-writing-mode: tb-rl;
-			writing-mode: vertical-rl;
-			
+			@extend .rl;
 			opacity: 0;
 			transition: 0.3s opacity;
 			text-align: center;
