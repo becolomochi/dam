@@ -9,7 +9,7 @@
 <link type="text/css" rel="stylesheet" href="<?php echo $style; ?>?170211">
 <?php } ?>
 </head>
-<body>
+<body id="ge">
 
 <div id="barba-wrapper">
 <div class="barba-container ge-wrapper">
@@ -120,6 +120,20 @@ Barba.Pjax.getTransition = function() {
 			//webkit
 			$("body").scrollLeft($("body").scrollLeft() + mov * scrollSpeed);
 			return false;
+		});
+		
+		var dir = "/media/img/gezicht/";
+		$("body").vegas({
+			overlay: '/media/lib/vegas/overlays/01.png',
+			timer: false,
+			shuffle: true,
+			trainsition: 'fade',
+			animation: 'kenburns',
+			slides: [
+				{ src: dir + "hiraide_2.jpg" },
+				{ src: dir + "shimokubo_2.jpg" },
+				{ src: dir + "tamayodo_1.jpg" }
+			]
 		});
 	});
 	

@@ -38,6 +38,7 @@ class Controller_Gezicht extends Controller_Template {
 		{
 			$this->template->styles = [
 				'/media/lib/normalize.css',
+				'/media/lib/vegas/vegas.min.css',
 				'/media/css/gezicht.css',
 			];
 			
@@ -45,6 +46,7 @@ class Controller_Gezicht extends Controller_Template {
 				'/media/lib/barbajs/barba.min.js',
 				'/media/lib/jquery3.1.1/jquery.min.js',
 				'/media/lib/jquery-mousewheel/jquery.mousewheel.min.js',
+				'/media/lib/vegas/vegas.min.js',
 			];
 		}
 
