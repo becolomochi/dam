@@ -1,19 +1,44 @@
 @charset "utf-8";
+$text-color: #555;
+.clearfix {
+	&:after {
+		content: '';
+		display:table;
+		clear:both;
+	}
+}
 body {
 	font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3";
+	color: $text-color;
+	width: 10000px;
+	overflow-y: hidden;
+}
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: $text-color;
 }
 div {
 	box-sizing: border-box;
 }
+
+.ge-wrapper {
+	@extend .clearfix;
+	display: inline-block;
+}
 .ge-page-box {
 	padding: 50px;
+	width: 1500px;
 	height: 100vh;
 	position: relative;
+	float: right;
 	&.block1 ,&.block3, &.block5 {
 		background: #fafafa;
 	}
 	&.block2, &.block4 {
 		background: #efefef;
+	}
+	&.block1, &.block3 {
+		width: 100vw;
 	}
 }
 .ge-vertical-rl-box {
@@ -38,9 +63,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .ge-top-link-box {
 	margin: -50px;
-	display: -webkit-flex; /* Safari */
+	display: -webkit-flex;
 	display: flex;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row-reverse;
 	a {
+		position: relative;
 		display: block;
 		width: 25%;
 		height: 100vh;
@@ -48,5 +76,44 @@ h1, h2, h3, h4, h5, h6 {
 		&:nth-child(odd) {
 			background: #fff;
 		}
+		.span-alpha {
+			-webkit-writing-mode: vertical-rl;
+			-ms-writing-mode: tb-rl;
+			writing-mode: vertical-rl;
+
+			position: absolute;
+			top: 5px;
+			left: 0;
+			font-size: 100px;
+			line-height: 1;
+			color: #eee;
+		}
+		.span-kanji {
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			font-size: 40px;
+			line-height: 1;
+			color: #999;
+		}
+		.span-catch {
+			-webkit-writing-mode: vertical-rl;
+			-ms-writing-mode: tb-rl;
+			writing-mode: vertical-rl;
+			
+			opacity: 0;
+			transition: 0.3s opacity;
+			text-align: center;
+			margin-top: 40%;
+		}
+	}
+	a:hover {
+		width: 50%;
+		.span-catch {
+			opacity: 1;
+		}
+	}
+	a {
+		transition: 0.3s width;
 	}
 }

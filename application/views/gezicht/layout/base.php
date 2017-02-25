@@ -12,7 +12,7 @@
 <body>
 
 <div id="barba-wrapper">
-<div class="barba-container">
+<div class="barba-container ge-wrapper">
 
 <?php
 echo $content;
@@ -103,5 +103,31 @@ Barba.Pjax.getTransition = function() {
 <!--
 ( ・-・) <3 DAM
 -->
+<script>
+	$(function(){
+		// ロード時の幅調整・表示位置調整
+		var contentWidth = $(".ge-wrapper").outerWidth();
+		var windowWidth = $(window).width();
+		var leftPosition = contentWidth - windowWidth;
+		$("body").css({width: contentWidth});
+		$("html, body").scrollLeft(leftPosition);
+
+		// ホイールダウンで横スクロール
+		var scrollSpeed = 10;
+		$("html").mousewheel(function(event, mov){
+			//ie firefox
+			$(this).scrollLeft($(this).scrollLeft() + mov * scrollSpeed);
+			//webkit
+			$("body").scrollLeft($("body").scrollLeft() + mov * scrollSpeed);
+			return false;
+		});
+	});
+	
+	// リサイズ時の幅調整
+	$(window).on("resize", function(){
+		var contentWidth = $(".ge-wrapper").outerWidth();
+		$("body").css({width: contentWidth});
+	});
+</script>
 </body>
 </html>

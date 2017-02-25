@@ -18,10 +18,10 @@ gezicht
 
 <div class="ge-page-box block3">
 <div class="ge-top-link-box">
-<a href="/gezicht/wit/">白</a>
-<a href="/gezicht/kalm/">和</a>
-<a href="/gezicht/canyon/">峡</a>
-<a href="/gezicht/flow/">流</a>
+<a href="/gezicht/wit/" id="link-wit"><span class="span-alpha">wit</span> <span class="span-kanji">白</span> <span class="span-catch">１ ゆきどけ 春の大地へ</span></a>
+<a href="/gezicht/kalm/" id="link-kalm"><span class="span-alpha">kalm</span> <span class="span-kanji">和</span> <span class="span-catch">２ 生き物の暮らしと共に</span></a>
+<a href="/gezicht/canyon/" id="link-kalm"><span class="span-alpha">canyon</span> <span class="span-kanji">峡</span> <span class="span-catch">３ 環境に生き、環境をコントロールする</span></a>
+<a href="/gezicht/flow/" id="link-flow"><span class="span-alpha">flow</span> <span class="span-kanji">流</span> <span class="span-catch">４ 無数の形を作り上げる 水のアーティスト</span></a>
 </div>
 </div>
 
