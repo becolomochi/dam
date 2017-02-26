@@ -134,7 +134,7 @@ body#ge {
 			right: 10px;
 			font-size: 40px;
 			line-height: 1;
-			color: #999;
+			color: #eee;
 		}
 		.span-catch {
 			@extend .rl;
@@ -142,6 +142,8 @@ body#ge {
 			transition: 0.3s opacity;
 			text-align: center;
 			margin-top: 40%;
+			background: #fff;
+			padding: 3px 1px;
 		}
 	}
 	a:hover {
