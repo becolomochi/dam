@@ -58,7 +58,6 @@ class Controller_Gezicht extends Controller_Template {
 			];
 			
 			$this->template->scripts = [
-				'/media/lib/barbajs/barba.min.js',
 				'/media/lib/jquery3.1.1/jquery.min.js',
 				'/media/lib/jquery-mousewheel/jquery.mousewheel.min.js',
 				'/media/lib/vegas/vegas.min.js',
