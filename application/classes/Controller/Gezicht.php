@@ -8,28 +8,43 @@ class Controller_Gezicht extends Controller_Template {
 	public $template = 'gezicht/layout/base';
 	
 	public function action_index() {
+		$this->template = View::factory('gezicht/layout/base')
+				->set('top', 'top')
+				->set('jsslide', View::factory('gezicht/partial/slide-top'));
 		$this->template->title = 'gezicht';
 		$this->template->content = View::factory('gezicht/index');
 	}
 	
 	public function action_wit() {
-		$this->template->title = '白 gezicht';
-		$this->template->content = View::factory('gezicht/wit/index');
+		$this->template = View::factory('gezicht/layout/base')
+				->set('jsslide', View::factory('gezicht/partial/slide-wit'));
+		$this->template->title = 'wit 白 - gezicht';
+		$this->template->content = View::factory('gezicht/wit/index')
+				->set('pager', View::factory('gezicht/layout/pager'));
 	}
 	
 	public function action_kalm() {
-		$this->template->title = '和 gezicht';
-		$this->template->content = View::factory('gezicht/kalm/index');
+		$this->template = View::factory('gezicht/layout/base')
+				->set('jsslide', View::factory('gezicht/partial/slide-kalm'));
+		$this->template->title = 'kalm 和 - gezicht';
+		$this->template->content = View::factory('gezicht/kalm/index')
+				->set('pager', View::factory('gezicht/layout/pager'));
 	}
 	
 	public function action_canyon() {
+		$this->template = View::factory('gezicht/layout/base')
+				->set('jsslide', View::factory('gezicht/partial/slide-canyon'));
 		$this->template->title = '峡 gezicht';
-		$this->template->content = View::factory('gezicht/canyon/index');
+		$this->template->content = View::factory('gezicht/canyon/index')
+				->set('pager', View::factory('gezicht/layout/pager'));
 	}
 	
 	public function action_flow() {
+		$this->template = View::factory('gezicht/layout/base')
+				->set('jsslide', View::factory('gezicht/partial/slide-flow'));
 		$this->template->title = '流 gezicht';
-		$this->template->content = View::factory('gezicht/flow/index');
+		$this->template->content = View::factory('gezicht/flow/index')
+				->set('pager', View::factory('gezicht/layout/pager'));
 	}
 
 	public function after()

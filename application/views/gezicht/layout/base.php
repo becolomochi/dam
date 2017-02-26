@@ -9,7 +9,7 @@
 <link type="text/css" rel="stylesheet" href="<?php echo $style; ?>?170211">
 <?php } ?>
 </head>
-<body id="ge">
+<body id="ge" <?php if(isset($top)){ echo 'class="top"';}; ?>>
 
 <div id="barba-wrapper">
 <div class="barba-container ge-wrapper">
@@ -37,7 +37,7 @@ echo $content;
 <script type="text/javascript" src="<?php echo $script; ?>"></script>
 <?php } ?>
 <script>
-Barba.Pjax.start();
+//Barba.Pjax.start();
 var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
     /**
@@ -121,20 +121,6 @@ Barba.Pjax.getTransition = function() {
 			$("body").scrollLeft($("body").scrollLeft() + mov * scrollSpeed);
 			return false;
 		});
-		
-		var dir = "/media/img/gezicht/";
-		$("body").vegas({
-			overlay: '/media/lib/vegas/overlays/01.png',
-			timer: false,
-			shuffle: true,
-			trainsition: 'fade',
-			animation: 'kenburns',
-			slides: [
-				{ src: dir + "hiraide_2.jpg" },
-				{ src: dir + "shimokubo_2.jpg" },
-				{ src: dir + "tamayodo_1.jpg" }
-			]
-		});
 	});
 	
 	// リサイズ時の幅調整
@@ -143,5 +129,6 @@ Barba.Pjax.getTransition = function() {
 		$("body").css({width: contentWidth});
 	});
 </script>
+<?php if(isset($jsslide)) { echo $jsslide; } ?>
 </body>
 </html>
