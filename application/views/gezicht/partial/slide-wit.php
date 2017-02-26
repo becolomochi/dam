@@ -39,7 +39,6 @@ $(function(){
 		trainsition: 'fade',
 		animation: 'kenburns',
 		slides: [
-			{ src: dir + "hiraide_1.jpg" },
 			{ src: dir + "hiraide_2.jpg" },
 			{ src: dir + "hiraide_3.jpg" },
 			{ src: dir + "hiraide_4.jpg" }
