@@ -8,6 +8,7 @@ application/bootstrap.php
 modules/
 system/
 media/img/
+media/img-src/
 media/lib/
 
 *.md
