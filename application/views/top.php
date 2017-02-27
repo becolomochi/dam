@@ -20,7 +20,9 @@
 <h1 class="title"><?php echo $title; ?></h1>
 </header>
 <div id="container" class="container">
-<a href="/book">ダム写真集「素顔のダム」はここからどうぞ</a>
+<a href="/book">卒業制作 ダム写真集「素顔のダム」</a><br>
+<a href="/gezicht">縦書きWebサイト「gezicht」</a><br>
+<a href="//becolomochi.thebase.in/" target="_blank">Becolomochi shop - ダムZINEの販売（外部サイト）</a>
 </div>
 <footer>
 <p class="copyright">&copy; 2016 Beco</p>

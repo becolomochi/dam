@@ -13,7 +13,7 @@
 
 <link rel="shortcut icon" href="http://dam.becolomochi.com/media/img/gezicht/favicon.ico" type="image/vnd.microsoft.icon">
 <?php foreach ($styles as $style) { ?>
-<link type="text/css" rel="stylesheet" href="<?php echo $style; ?>?170227">
+<link type="text/css" rel="stylesheet" href="<?php echo $style; ?>?170227-2">
 <?php } ?>
 <script type="text/javascript" src="//webfont.fontplus.jp/accessor/script/fontplus.js?pzIPzFK0ULc%3D&box=8pL3Swmt0xo%3D&aa=1" charset="utf-8"></script>
 </head>
@@ -28,6 +28,10 @@ echo $content;
 
 <footer class="copyright">© 2017 beco</footer>
 </div>
+</div>
+
+<div class="load">
+<div class="spinner">Loading...</div>
 </div>
 
 <?php if(Kohana::$environment === Kohana::PRODUCTION) : ?>
@@ -46,6 +50,10 @@ echo $content;
 <script type="text/javascript" src="<?php echo $script; ?>"></script>
 <?php } ?>
 <script>
+	$(window).on("load", function(){
+		$(".load").fadeOut();
+	});
+	
 	$(function(){
 		// ロード時の幅調整・表示位置調整
 		var contentWidth = $(".ge-wrapper").outerWidth();

@@ -1,7 +1,7 @@
 <div class="ge-top-bg-box">
 <div class="ge-page-box block1">
 <h1 class="ge-top-title">
-<img src="/media/img/logo_gezicht.svg" width="250" height="62" alt="gezicht">
+<img src="/media/img/gezicht/logo_gezicht.svg" width="250" height="62" alt="gezicht">
 </h1>
 <div class="ge-top-catch-box">
 <p><span>ダムの素顔を追った一年間の記録</span></p>
