@@ -12,13 +12,15 @@ class Controller_Gezicht extends Controller_Template {
 				->set('top', 'top')
 				->set('jsslide', View::factory('gezicht/partial/slide-top'));
 		$this->template->title = 'gezicht';
+		$this->template->description = 'gezicht ダムの素顔を追った一年間の記録。';
 		$this->template->content = View::factory('gezicht/index');
 	}
 	
 	public function action_wit() {
 		$this->template = View::factory('gezicht/layout/base')
 				->set('jsslide', View::factory('gezicht/partial/slide-wit'));
-		$this->template->title = 'wit 白 - gezicht';
+		$this->template->title = 'wit 白 しろ - gezicht';
+		$this->template->description = 'gezicht 白の章。暖かい季節を待ちわびるダムの姿。';
 		$this->template->content = View::factory('gezicht/wit/index')
 				->set('pager', View::factory('gezicht/layout/pager'));
 	}
@@ -26,7 +28,8 @@ class Controller_Gezicht extends Controller_Template {
 	public function action_kalm() {
 		$this->template = View::factory('gezicht/layout/base')
 				->set('jsslide', View::factory('gezicht/partial/slide-kalm'));
-		$this->template->title = 'kalm 和 - gezicht';
+		$this->template->title = 'kalm 和 なごみ - gezicht';
+		$this->template->description = 'gezicht 和の章。ダム周辺に暮らす動物・人々。';
 		$this->template->content = View::factory('gezicht/kalm/index')
 				->set('pager', View::factory('gezicht/layout/pager'));
 	}
@@ -34,7 +37,8 @@ class Controller_Gezicht extends Controller_Template {
 	public function action_canyon() {
 		$this->template = View::factory('gezicht/layout/base')
 				->set('jsslide', View::factory('gezicht/partial/slide-canyon'));
-		$this->template->title = '峡 gezicht';
+		$this->template->title = 'canyon 峡 きょう - gezicht';
+		$this->template->description = 'gezicht 峡の章。ダムが護る美しい景観。';
 		$this->template->content = View::factory('gezicht/canyon/index')
 				->set('pager', View::factory('gezicht/layout/pager'));
 	}
@@ -42,7 +46,8 @@ class Controller_Gezicht extends Controller_Template {
 	public function action_flow() {
 		$this->template = View::factory('gezicht/layout/base')
 				->set('jsslide', View::factory('gezicht/partial/slide-flow'));
-		$this->template->title = '流 gezicht';
+		$this->template->title = 'flow 流 りゅう - gezicht';
+		$this->template->description = 'gezicht 流の章。ダムの放流をする姿。';
 		$this->template->content = View::factory('gezicht/flow/index')
 				->set('pager', View::factory('gezicht/layout/pager'));
 	}

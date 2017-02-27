@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php echo $title; ?></title>
+<meta name="description" content="<?php echo $description; ?>">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://dam.becolomochi.com/gezicht">
+<meta property="og:image" content="http://dam.becolomochi.com/media/img/gezicht/ogp.jpg">
+<meta property="fb:app_id" content="157594451422567">
+<meta name="twitter:card" content="photo">
 
+<link rel="shortcut icon" href="http://dam.becolomochi.com/media/img/gezicht/favicon.ico" type="image/vnd.microsoft.icon">
 <?php foreach ($styles as $style) { ?>
-<link type="text/css" rel="stylesheet" href="<?php echo $style; ?>?170211">
+<link type="text/css" rel="stylesheet" href="<?php echo $style; ?>?170227">
 <?php } ?>
 <script type="text/javascript" src="//webfont.fontplus.jp/accessor/script/fontplus.js?pzIPzFK0ULc%3D&box=8pL3Swmt0xo%3D&aa=1" charset="utf-8"></script>
 </head>
