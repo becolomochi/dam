@@ -12,19 +12,19 @@
 </p>
 <div class="ge-detail-photo-box kalm">
 <a href="#tsuburada">
-<img src="/media/img/gezicht/tsuburada_2.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/tsuburada_2.jpg" width="157" height="104" alt="円良田ダム">
 <span class="caption">円良田ダム</span>
 </a>
 <a href="#shinsui">
-<img src="/media/img/gezicht/shinsui_3.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/shinsui_3.jpg" width="157" height="104" alt="神水ダム">
 <span class="caption">神水ダム</span>
 </a>
 <a href="#tamayodo">
-<img src="/media/img/gezicht/tamayodo_2.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/tamayodo_2.jpg" width="157" height="104" alt="玉淀ダム">
 <span class="caption">玉淀ダム</span>
 </a>
 <a href="#mozawa">
-<img src="/media/img/gezicht/mozawa_2.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/mozawa_2.jpg" width="157" height="104" alt="茂沢ダム">
 <span class="caption">茂沢ダム</span>
 </a>
 </div>

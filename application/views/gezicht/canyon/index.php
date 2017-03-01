@@ -10,11 +10,11 @@
 </p>
 <div class="ge-detail-photo-box canyon">
 <a href="#shimokubo">
-<img src="/media/img/gezicht/shimokubo_2.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/shimokubo_2.jpg" width="157" height="104" alt="下久保ダム">
 <span class="caption">下久保ダム</span>
 </a>
 <a href="#takatsudo">
-<img src="/media/img/gezicht/takatsudo_6.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/takatsudo_6.jpg" width="157" height="104" alt="高津戸ダム">
 <span class="caption">高津戸ダム</span>
 </a>
 </div>

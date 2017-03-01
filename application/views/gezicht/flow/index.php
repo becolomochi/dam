@@ -11,15 +11,15 @@
 </p>
 <div class="ge-detail-photo-box flow">
 <a href="#naramata">
-<img src="/media/img/gezicht/naramata_1.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/naramata_1.jpg" width="157" height="104" alt="奈良俣ダム">
 <span class="caption">奈良俣ダム</span>
 </a>
 <a href="#yagisawa">
-<img src="/media/img/gezicht/yagisawa_1.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/yagisawa_1.jpg" width="157" height="104" alt="矢木沢ダム">
 <span class="caption">矢木沢ダム</span>
 </a>
 <a href="#sudagai">
-<img src="/media/img/gezicht/sudagai_1.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/sudagai_1.jpg" width="157" height="104" alt="須田貝ダム">
 <span class="caption">須田貝ダム</span>
 </a>
 </div>
@@ -48,7 +48,7 @@ FNAWIP /ロックフィル<br>
 <h2><span>矢木沢ダム</span></h2>
 <p>
 <span>放流前。本当にここから水が出てくるのかと疑うほど静かな環境。</span><br>
-<span>およそ1時間かけて少しずつゲートを開いていく。向こうの景色も見えなくなるほどの水しぶき。</span>
+<span>およそ一時間かけて少しずつゲートを開いていく。向こうの景色も見えなくなるほどの水しぶき。</span>
 </p>
 </div>
 <div class="ge-spec-box">

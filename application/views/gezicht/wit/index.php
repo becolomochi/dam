@@ -9,19 +9,19 @@
 </p>
 <div class="ge-detail-photo-box wit">
 <a href="#ohmachi">
-<img src="/media/img/gezicht/ohmachi_3.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/ohmachi_3.jpg" width="157" height="104" alt="大町ダム">
 <span class="caption">大町ダム</span>
 </a>
 <a href="#nanakura">
-<img src="/media/img/gezicht/nanakura_2.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/nanakura_2.jpg" width="157" height="104" alt="七倉ダム">
 <span class="caption">七倉ダム</span>
 </a>
 <a href="#sonohara">
-<img src="/media/img/gezicht/sonohara_2.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/sonohara_2.jpg" width="157" height="104" alt="薗原ダム">
 <span class="caption">薗原ダム</span>
 </a>
 <a href="#hiraide">
-<img src="/media/img/gezicht/hiraide_4.jpg" width="" height="" alt="">
+<img src="/media/img/gezicht/hiraide_4.jpg" width="157" height="104" alt="平出ダム">
 <span class="caption">平出ダム</span>
 </a>
 </div>

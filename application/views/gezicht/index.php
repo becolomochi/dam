@@ -19,9 +19,9 @@
 </p>
 </div>
 <div class="ge-top-photo-box">
-<img src="/media/img/gezicht/yagisawa_1.jpg" alt="" width="" height="">
-<img src="/media/img/gezicht/tamayodo_1.jpg" alt="" width="" height="">
-<img src="/media/img/gezicht/sudagai_1.jpg" alt="" width="" height="">
+<img src="/media/img/gezicht/yagisawa_1.jpg" width="195" height="130" alt="ダムイメージ">
+<img src="/media/img/gezicht/tamayodo_1.jpg" width="195" height="130" alt="ダムイメージ">
+<img src="/media/img/gezicht/sudagai_1.jpg" width="195" height="130" alt="ダムイメージ">
 </div>
 </div>
 
