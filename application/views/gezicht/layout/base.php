@@ -3,6 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php echo $title; ?></title>
 <meta name="description" content="<?php echo $description; ?>">
 <meta property="og:type" content="website">
@@ -53,7 +54,7 @@ echo $content;
 	$(window).on("load", function(){
 		$(".load").fadeOut();
 	});
-	
+
 	$(function(){
 		// ロード時の幅調整・表示位置調整
 		var contentWidth = $(".ge-wrapper").outerWidth();
@@ -71,14 +72,14 @@ echo $content;
 			$("body").scrollLeft($("body").scrollLeft() + mov * scrollSpeed);
 			return false;
 		});
-		
+
 		// ページ上部へ戻る
 		$(".link-to-top").on("click", function(){
 			$("html, body").animate({scrollLeft: leftPosition}, 1000);
 			return false;
 		});
 	});
-	
+
 	// リサイズ時の幅調整
 	$(window).on("resize", function(){
 		var contentWidth = $(".ge-wrapper").outerWidth();
