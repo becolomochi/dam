@@ -41,6 +41,11 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
+html,body {
+  overflow-x : hidden;
+//  overflow-y : scroll;
+  -webkit-overflow-scrolling: touch;
+}
 .load {
 	width: 100%;
 	height: 100%;
@@ -204,16 +209,16 @@ body#ge {
 	}
 }
 .wit .ge-page-box {
-	width: 960px;
+		width: 1060px;
 }
 .kalm .ge-page-box {
-	width: 950px;
+	width: 1050px;
 }
 .canyon .ge-page-box {
-	width: 950px;
+	width: 1050px;
 }
 .flow .ge-page-box {
-	width: 1020px;
+	width: 1220px;
 }
 .ge-vertical-rl-box {
 	width: 100%;
