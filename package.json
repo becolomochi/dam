@@ -1,0 +1,29 @@
+{
+  "name": "dam.becolomochi.dev",
+  "version": "1.0.0",
+  "description": "こちらはべころもちのダムコンテンツです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becolomochi/dam.becolomochi.com.git"
+  },
+  "author": "becolomochi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/becolomochi/dam.becolomochi.com/issues"
+  },
+  "homepage": "https://github.com/becolomochi/dam.becolomochi.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-image-resize": "^0.12.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "jquery": "^3.1.1",
+    "run-sequence": "^1.2.2",
+    "vegas": "^2.4.0"
+  }
+}
