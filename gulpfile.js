@@ -3,10 +3,12 @@ var browserSync = require('browser-sync');
 
 gulp.task('default', function() {
   browserSync.init({
-    proxy: 'dam.becolomochi.dev/gezicht'
+    server: {
+      baseDir: "./"
+    }
   });
   gulp.watch("./media/scss/**/*.scss", ['sass']);
-  gulp.watch("./application/views/**/*.php").on('change', browserSync.reload);
+  gulp.watch("./**/*.html").on('change', browserSync.reload);
 });
 
 var sass = require('gulp-sass');
