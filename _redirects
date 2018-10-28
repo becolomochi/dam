@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://hungry-almeida-ef16f5.netlify.com/* http://dam.becolomochi.com/:splat 301!
+https://hungry-almeida-ef16f5.netlify.com/* https://dam.becolomochi.com/:splat 301!
